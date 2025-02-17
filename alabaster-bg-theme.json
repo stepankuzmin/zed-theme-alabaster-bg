@@ -1,31 +1,56 @@
 {
-  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Alabaster BG",
-  "author": "Stepan Kuzmin (original theme by Nikita Prokopov)",
-  "themes": [
-    {
-      "name": "Alabaster BG",
-      "appearance": "light",
-      "style": {
-        "text": "#000",
-        "background": "#fff",
-        "syntax": {
-          "comment": {
-            "color": "#000",
-            "background_color": "#FFFABC"
-          },
-          "string": {
-            "color": "#000",
-            "background_color": "#F1FADF"
-          },
-          "number": {
-            "color": "#7A3E9D"
-          },
-          "character": {
-            "color": "#7A3E9D"
-          }
+    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+    "name": "Alabaster BG",
+    "author": "Stepan Kuzmin (original theme by Nikita Prokopov)",
+    "themes": [
+        {
+            "name": "Alabaster BG",
+            "appearance": "light",
+            "style": {
+                "text": "#000",
+                "foreground": "#000",
+                "background": "#FFF",
+                "editor.active_line.background": "#00000010",
+                "search.match_background": "#FFBC5D",
+                "players": [
+                    {
+                        "cursor": "#007ACC",
+                        "selection": "#B4D8FD"
+                    }
+                ],
+                "syntax": {
+                    "boolean": {
+                        "color": "#7A3E9D"
+                    },
+                    "comment": {
+                        "background_color": "#FFFABC"
+                    },
+                    "comment.doc": {
+                        "background_color": "#FFFABC"
+                    },
+                    "constructor": {
+                        "color": "#f00"
+                    },
+                    "constant": {
+                        "color": "#7A3E9D"
+                    },
+                    "function": {
+                        "background_color": "#DBF1FF"
+                    },
+                    "string": {
+                        "background_color": "#F1FADF"
+                    },
+                    "label": {
+                        "color": "#7A3E9D"
+                    },
+                    "number": {
+                        "color": "#7A3E9D"
+                    },
+                    "punctuation": {
+                        "color": "#00000090"
+                    }
+                }
+            }
         }
-      }
-    }
-  ]
+    ]
 }
