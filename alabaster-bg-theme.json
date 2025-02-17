@@ -1,0 +1,31 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Alabaster BG",
+  "author": "Stepan Kuzmin (original theme by Nikita Prokopov)",
+  "themes": [
+    {
+      "name": "Alabaster BG",
+      "appearance": "light",
+      "style": {
+        "text": "#000",
+        "background": "#fff",
+        "syntax": {
+          "comment": {
+            "color": "#000",
+            "background_color": "#FFFABC"
+          },
+          "string": {
+            "color": "#000",
+            "background_color": "#F1FADF"
+          },
+          "number": {
+            "color": "#7A3E9D"
+          },
+          "character": {
+            "color": "#7A3E9D"
+          }
+        }
+      }
+    }
+  ]
+}
